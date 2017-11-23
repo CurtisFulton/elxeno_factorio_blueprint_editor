@@ -10,7 +10,7 @@ window.onload = function () {
         }
     });
     createItems();
-    createTiles();
+    //createTiles();
 };
 
 var placeable = [
@@ -422,4 +422,4 @@ function encode(json) {
     return bstring;
 }
 
-document.onmousemove = setPreviewFollow;
+document.addEventListener('mousemove', setPreviewFollow);

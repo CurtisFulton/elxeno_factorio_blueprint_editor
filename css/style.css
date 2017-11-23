@@ -60,7 +60,7 @@ html {
 
 }
 
-#grid {
+#grid, #dynamic-content {
     position: absolute;
     top: 2px;
     left: 202px;
